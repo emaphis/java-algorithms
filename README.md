@@ -1,2 +1,2 @@
 # java-algorithms
-Repository of algorithms in java
+Repository of algorithms and experiments in java
