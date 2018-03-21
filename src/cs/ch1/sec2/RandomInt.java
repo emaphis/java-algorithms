@@ -1,10 +1,14 @@
 /******************************************************************************
  * Name:  Ed Maphis
- * Section 1.2
- * Program 1.2.5
+ * Section 1.2 - Built-in Types of Data
+ * Program 1.2.5 - RandomInt.java
  *
- * Description: Program that calculates random intgers.
- * Formula: Uses the Java method Math.random() to generate random numbers 
+ * Description: Casting to get a random integer.
+ * Formula: Uses the Java method Math.random() to generate a random number r
+ *          between 0.0 (inclusive) and 1.0 (exclusive); then multiplies r by
+ *          the command-line argument n to get a random number greater than or
+ *          equal to 0 and less than n; then uses a cast to truncate the
+ *          result to be an integer value between 0 and n-1. 
  ******************************************************************************/
 
 package cs.ch1.sec2;

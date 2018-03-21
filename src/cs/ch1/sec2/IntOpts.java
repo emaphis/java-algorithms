@@ -1,10 +1,13 @@
 /******************************************************************************
  * Name:  Ed Maphis
- * Section 1.2
- * Program 1.2.2
+ * Section 1.2 - Built-in Types of Data
+ * Program 1.2.2 - IntOpts.java
  *
- * Description: Program that demonstrates Integer operations on two integers
- *              passed on the command line.
+ * Description: Integer multiplication and division
+ * Formula: Arithmetic for integers is built into Java. Most of this code is
+ *          devoted to the task of getting the values in and out; the actual
+ *          arithmetic is in the simple statements in the middle of the
+ *          program that assign values to p, q, and r.
  ******************************************************************************/
 
 package cs.ch1.sec2;
