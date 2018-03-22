@@ -19,3 +19,141 @@ Ex. 1.2.3 Suppose that a and b are boolean variables. Show that the expression
    ( t/f && t/f) || ((a && b) || !(a || b))
    t/f || ((a && b) || !(a || b))
    t/f || ((a && b) || !(a || b))
+
+Ex. 1.2.4 Suppose that a and b are int variables. Simplify the following
+          expression: (!(a < b) && !(a > b)).
+      Ans: Always evaluates to false.
+
+Ex. 1.2.5 The exclusive or operator ^ for boolean operands is defined to be
+          true if they are different, false if they are the same.
+          Give a truth table for this function.
+     Ans: T ^ T => F
+          T ^ F => T
+          F ^ T => T
+          F ^ F => F
+
+Ex. 1.2.6 Why does 10/3 give 3 and not 3.333333333? 
+    Ans: Both numbers are integers and the '/' operator returns another integer
+
+Ex. 1.2.7 What does each of the following print?
+ a. System.out.println(2 + "bc");     2bc
+ b. System.out.println(2 + 3 + "bc"); 5bc
+ c. System.out.println((2+3) + "bc"); 5bc
+ d. System.out.println("bc" + (2+3)); bc5
+ e. System.out.println("bc" + 2 + 3); bc23
+    Ans: the integers are converted to chars then concatenated to the string
+
+Ex. 1.2.8 Explain how to use program 1.2.3 to find the square root of a number.
+    Ans: if b == a then 1.2.3 will find the square root using the quadratic
+         formula.
+
+Ex. 1.2.9  What does each of the following print?
+ a. System.out.println('b');  => b
+   Converts 'b' to a string then prints
+ b. System.out.println('b' + 'c'); => 197
+   Converts 'b' and 'c' to ints, then adds, then prints
+ c. System.out.println((char) ('a' + 4)); => e
+   Converts 'a' to a number, adds 4, converts to a chart, then converts to a
+   string then prints.
+
+Ex. 1.2.10
+    Suppose that a variable a is declared as int a = 2147483647
+    (or equivalently, Integer.MAX_VALUE). What does each of the following print?
+     a. System.out.println(a);
+       2147483647 print out largest integer.
+     b. System.out.println(a+1);
+       -2147483648 adding 1 to largest integer makes it largest negative.
+     c. System.out.println(2-a);
+       -2147483645 subtracting largest from 2 loops around to 2 largest negative
+     d. System.out.println(-2-a);
+       2147483647 minus 2 from minus 2nd largest negative creates largest positive
+     e. System.out.println(2*a); -1
+     f. System.out.println(4*a); -4
+  Explain each outcome.
+
+Ex. 1.2.11 Suppose that a variable a is declared as double a = 3.14159.
+    What does each of the following print?
+    a. System.out.println(a); => 3.14159
+       Prints the double
+    b. System.out.println(a+1); => 4.14159
+       Converts the 1 to a double add to a then prings
+    c. System.out.println(8/(int) a);  => 2
+       Converts a to int (3) then divides 8/3 => 2
+    d. System.out.println(8/a); => 2.5464812403910124
+       Converts 8 to double then divides by 'a'
+    e. System.out.println((int) (8/a)); => 2
+    Explain each outcome. 
+
+Ex. 1.2.12  Describe what happens if you write sqrt instead of Math.sqrt
+    in program 1.2.3.
+    Ans: Compiler error - undefined symbol
+
+Ex. 1.2.13 Evaluate the expression (Math.sqrt(2) * Math.sqrt(2) == 2).
+    Ans: false, floating point arithmetic is inexact.
+
+Ex. 1.2.14  Write a program that takes two positive integers as command-line
+            arguments and prints true if either evenly divides the other.
+    
+    
+    See: EvenlyDivides.java
+
+Ex. 1.2.15 Write a program that takes three positive integers as command-line
+           arguments and prints false if any one of them is greater than or
+           equal to the sum of the other two and true otherwise.
+           (Note : This computation tests whether the three numbers could be the
+            lengths of the sides of some triangle.)
+    See: TriangleSides.java
+
+Ex. 1.2.16 A physics student gets unexpected results when using the code
+          double force = G * mass1 * mass2 / r * r;
+       to compute values according to the formula F = Gm1m2 / r 2.
+       Explain the problem and correct the code.
+  Ans: Operator precedence.
+       The problem is that the subexpression G*mass1*mass2 is divided by only r
+       then multiplied by r: double force = (G * mass1 * mass2 / r) * r;
+       The correct expression should be:
+            double force = G * mass1 * mass2 / (r * r);
+
+Ex. 1.2.17 Give the value of the variable a after the execution of each of the
+           following sequences of statements:
+           int a = 1;    boolean a = true;    int a = 2;
+           a = a + a;    a = !a;              a = a * a;
+           a = a + a;    a = !a;              a = a * a;
+           a = a + a;    a = !a;              a = a * a;
+    Ans:   8             false                256
+
+Ex. 1.2.18 Write a program that takes two integer command-line arguments x and y
+       and prints the Euclidean distance from the point (x, y)
+       to the origin (0, 0). 
+  Ans: Euclidean.java
+
+Ex. 1.2.19 Write a program that takes two integer command-line arguments a and b
+       and prints a random integer between a and b, inclusive. 
+    int random = rand.nextInt((max - min) + 1) + min;
+    Ans: RandInt.java
+
+Ex. 1.2.20 Write a program that prints the sum of two random integers between
+           1 and 6 (such as you might get when rolling dice). 
+    Ans: RollDice.java
+
+Ex. 1.2.21 Write a program that takes a double command-line argument t and
+           prints the value of sin(2t) + sin(3t).
+    Ans: SinFormula.java
+
+Ex. 1.2.22 Write a program that takes three double command-line arguments x0,
+           v0, and t and prints the value of x0 + v0*t − g*t^2 / 2, where g is
+           the constant 9.80665. (Note : This value is the displacement in
+           meters after t seconds when an object is thrown straight up from
+           initial position x0 at velocity v0 meters per second.)
+    Ans: Velocity.java
+
+Ex. 1.2.23 Write a program that takes two integer command-line arguments m and
+           d and prints true if day d of month m is between 3/20 and 6/20,
+           false otherwise.
+    Ans: DayMonth.java
+
+
+
+
+int random = rand.nextInt((max - min) + 1) + min;
+
