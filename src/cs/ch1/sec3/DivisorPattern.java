@@ -1,7 +1,7 @@
 /******************************************************************************
  * Name:  Ed Maphis
  * Section 1.3 - Conditionals and loops
- * Program 1.3.1x - DivisorPattern.java
+ * Program 1.3.4 - DivisorPattern.java
  *
  * Description: Your first nested loop.
  * Exercise: This program takes an integer command-line argument n and uses

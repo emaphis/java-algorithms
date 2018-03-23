@@ -1,7 +1,7 @@
 /******************************************************************************
  * Name:  Ed Maphis
  * Section 1.3 - Conditionals and loops
- * Program 1.3.1x - zzz.java
+ * Program 1.3.1 - Flip.java
  *
  * Description: Flipping a fair coin.
  * Exercise: This program uses Math.random() to simulate a fair coin flip.

@@ -1,7 +1,7 @@
 /******************************************************************************
  * Name:  Ed Maphis
  * Section 1.3 - Conditionals and loops
- * Program 1.3.1x - PowerOfTwo.java 
+ * Program 1.3.3 - PowerOfTwo.java
  *
  * Description: Computing powers of 2.
  * Program: This program takes an integer command-line argument n and prints

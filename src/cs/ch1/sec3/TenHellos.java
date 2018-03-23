@@ -1,7 +1,7 @@
 /******************************************************************************
  * Name:  Ed Maphis
  * Section 1.3 - Conditionals and loops
- * Program 1.3.1x - TenHellos.java
+ * Program 1.3.2 - TenHellos.java
  *
  * Description: Your first while loop.
  * Exercise: This program uses a while loop for the simple, repetitive task of

@@ -33,10 +33,19 @@ for (<initialize>; <boolean expression>; <increment>)
 {    
     <statements>
 }
- 
+
  Compound assignment statements
  All equivalent to:
  i = i + 1;
  => i++;  ++i;  i += 1;
  
  Scope.
+
+ Other conditional and loop constructs.
+   Break statements.
+   Continue statements.
+   Switch statements.
+
+ Do-while loops
+
+ do { <statements> } while (<boolean expression>);
