@@ -22,7 +22,7 @@ Ex. 1.2.3 Suppose that a and b are boolean variables. Show that the expression
 
 Ex. 1.2.4 Suppose that a and b are int variables. Simplify the following
           expression: (!(a < b) && !(a > b)).
-      Ans: Always evaluates to false.
+      Ans: (a == b).
 
 Ex. 1.2.5 The exclusive or operator ^ for boolean operands is defined to be
           true if they are different, false if they are the same.
@@ -129,7 +129,7 @@ Ex. 1.2.18 Write a program that takes two integer command-line arguments x and y
 
 Ex. 1.2.19 Write a program that takes two integer command-line arguments a and b
        and prints a random integer between a and b, inclusive. 
-    int random = rand.nextInt((max - min) + 1) + min;
+    int random = (int) (Math.random() * max) + min;
     Ans: RandInt.java
 
 Ex. 1.2.20 Write a program that prints the sum of two random integers between

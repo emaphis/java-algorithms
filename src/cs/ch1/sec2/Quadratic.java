@@ -4,7 +4,7 @@
  * Program 1.2.3 - Quadratic.java
  *
  * Description: Quadratic formula
- * Formula: This program prints the roots of the polynomial x2 + bx + c, using
+ * Formula: This program prints the roots of the polynomial x^2 + bx + c, using
  *          the quadratic formula. For example, the roots of x2 – 3x + 2 are
  *          1 and 2 since we can factor the equation as (x – 1)(x – 2);
  *          the roots of x2 – x – 1 are th and 1 – th, where th is the golden
@@ -21,7 +21,7 @@ public class Quadratic {
         double discriminant = b*b - 4.0*c;
         double d = Math.sqrt(discriminant);
         System.out.println((-b + d) / 2.0);
-        System.out.println((-b -d) / 2.0);
+        System.out.println((-b - d) / 2.0);
     }
 
 }
