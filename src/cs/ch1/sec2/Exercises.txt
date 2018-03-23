@@ -152,7 +152,17 @@ Ex. 1.2.23 Write a program that takes two integer command-line arguments m and
            false otherwise.
     Ans: DayMonth.java
 
+Ex. 1.2.24 - CompoundInterest.java
 
+Ex. 1.2.26 - PolarCoord.java
+
+Ex. 1.2.27 - GaussRandom.java
+
+Es. 1.2.28 - OrderCheck.java
+
+Ex. 1.2.29 - DayOfWeek.java
+
+Ex. 1.2.25 - WindChill.java.
 
 
 int random = rand.nextInt((max - min) + 1) + min;
