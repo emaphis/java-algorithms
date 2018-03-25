@@ -22,9 +22,6 @@ package cs.ch1.sec3;
  */
 public class TenHellos {
 
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
         // Print 10 Hellos.
         System.out.println("1st Hello");
