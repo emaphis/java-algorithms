@@ -1,6 +1,8 @@
 /******************************************************************************
- *  Name:    Ed Maphis
+ *  Compilation:  javac HelloWorld.java
+ *  Execution:    java HelloWorld
  *
+ *  Author:    Ed Maphis
  *  Description:  Basic Hello World program.
  ******************************************************************************/
 

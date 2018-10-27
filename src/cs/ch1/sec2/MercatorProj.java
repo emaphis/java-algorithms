@@ -1,10 +1,13 @@
 /******************************************************************************
- * Name:  Ed Maphis
- * Section 1.2 - Built-in Types of Data
- * Program 1.2.31 - MercatorProj.java
+ *  Compilation:  javac MercatorProj.java
+ *  Execution:    java MercatorProj double double double
  *
- * Description: Mercator projection. 
- * Exercise: The Mercator projection is a conformal (anglepreserving)
+ *  Author:  Ed Maphis
+ *  Section: 1.2 - Built-in Types of Data
+ *  Program: 1.2.31 - MercatorProj.java
+ *
+ *  Description: Mercator projection.
+ *  Exercise: The Mercator projection is a conformal (anglepreserving)
  *           projection that maps latitude lat and longitude lon to rectangular
  *           coordinates (x, y). It is widely used—for example, in nautical
  *           charts and in the maps that you print from the web.
@@ -12,8 +15,8 @@
  *           y = 1/2 ln ((1 + sin lat) / (1 - sin lat)), where lon0 is the
  *           longitude of the point in the center of the map.
  *           Write a program that takes lon0 and the latitude and longitude of
- *           a point from the command line and prints its projection. 
- * Formula: 
+ *           a point from the command line and prints its projection.
+ *  Formula:
  ******************************************************************************/
 
 package cs.ch1.sec2;

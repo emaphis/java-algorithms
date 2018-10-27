@@ -1,14 +1,17 @@
 /******************************************************************************
- * Name:  Ed Maphis
- * Section 1.2 - Built-in Types of Data
- * Program 1.2.26 - WindChill.java
+ *  Compilation:  javac PolarCoord.java
+ *  Execution:    java PolarCoord double double
  *
- * Description: Polar coorinates.
- * Exercise: Write a program that converts from Cartesian to polar coordinates.
- *           Your program should accept two double commandline arguments x and
- *           y and print the polar coordinates r and Theta. Use the method
- *           Math.atan2(y, x) to compute the arctangent value of y/x that is
- *           in the range from -pi to pi. 
+ *  Author:  Ed Maphis
+ *  Section: 1.2 - Built-in Types of Data
+ *  Program: 1.2.26 - WindChill.java
+ *
+ *  Description: Polar coorinates.
+ *  Exercise: Write a program that converts from Cartesian to polar coordinates.
+ *            Your program should accept two double commandline arguments x and
+ *            y and print the polar coordinates r and Theta. Use the method
+ *            Math.atan2(y, x) to compute the arctangent value of y/x that is
+ *            in the range from -pi to pi.
  ******************************************************************************/
 
 package cs.ch1.sec2;

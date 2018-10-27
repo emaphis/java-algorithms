@@ -1,14 +1,17 @@
 /******************************************************************************
- * Name:  Ed Maphis
- * Section 1.2 - Built-in Types of Data
- * Program 1.2.24 - CompoundInterest.java
+ *  Compilation:  javac CompoundInterst.java
+ *  Execution:    java CompoundInterst years principle interest
  *
- * Description: Calculate compound interest.
- * Exercise: Continuously compounded interest.
+ *  Author:  Ed Maphis
+ *  Section 1.2 - Built-in Types of Data
+ *  Program 1.2.24 - CompoundInterest.java
+ *
+ *  Description: Calculate compound interest.
+ *  Exercise: Continuously compounded interest.
  *           Write a program that calculates and prints the amount of
  *           money you would have after t years if you invested P dollars
  *           at an annual interest rate r (compounded continuously).
- *           The desired value is given by the formula P * e^(rt). 
+ *           The desired value is given by the formula P * e^(rt).
  ******************************************************************************/
 
 package cs.ch1.sec2;

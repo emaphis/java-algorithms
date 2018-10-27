@@ -1,11 +1,14 @@
 /******************************************************************************
- * Name:  Ed Maphis
- * Section 1.2 -  Built-in Types of Data
- * Program 1.2.4 - Experiments.java
+ *  Compilation:  javac EvenlyDivides.java
+ *  Execution:    java EvenlyDivides number1 number2
  *
- * Description:  Exercise experiments.
- * Formula: A program for exercise experiments.
- *  
+ *  Author:  Ed Maphis
+ *  Section: 1.2 -  Built-in Types of Data
+ *  Program: 1.2.4 - Experiments.java
+ *
+ *  Description:  Exercise experiments.
+ *  Formula: A program for exercise experiments.
+ *
  ******************************************************************************/
 
 package cs.ch1.sec2;
@@ -37,7 +40,7 @@ public class Experiments {
 //        System.out.println((char) ('a' + 4));
 
         // Ex. 1.2.10
-//        int  a = 2147483647; 
+//        int  a = 2147483647;
 //        System.out.println(a);
 //        System.out.println(a+1);
 //        System.out.println(2-a);
@@ -65,8 +68,8 @@ public class Experiments {
         System.out.println(a);
 
         boolean b = true;
-        b = !b; //f
-        b = !b; //t
+        b = !b; // f
+        b = !b; // t
         b = !b; // false
         System.out.println(b);
 
@@ -76,12 +79,5 @@ public class Experiments {
         c = c * c;  // 256
         System.out.println(c);
 
-
-
-
-
-    
-    
     }
-
 }

@@ -1,12 +1,15 @@
 /******************************************************************************
- * Name:  Ed Maphis
- * Section 1.3 - Conditionals and loops
- * Program 1.3.12 - FunctionGrowth.java
+ *  Compilation:  javac FunctionGrowth.java
+ *  Execution:    java FunctionGrowth
  *
- * Description: Print a table of functions.
- * Exercise: Write a program FunctionGrowth that prints a table of the values
- *           log n, n, n*log_e n, n^2, n^3, and 2^n for n = 16, 32, 64, ...,
- *           2,048. Use tabs (\t characters) to align columns.
+ *  Author:  Ed Maphis
+ *  Section: 1.3 - Conditionals and loops
+ *  Program: 1.3.12 - FunctionGrowth.java
+ *
+ *  Description: Print a table of functions.
+ *  Exercise: Write a program FunctionGrowth that prints a table of the values
+ *            log n, n, n*log_e n, n^2, n^3, and 2^n for n = 16, 32, 64, ...,
+ *            2,048. Use tabs (\t characters) to align columns.
  ******************************************************************************/
 
 package cs.ch1.sec3;
@@ -28,7 +31,7 @@ public class FunctionGrowth {
             long np3    = n * n * n;
             long pn     = (long) Math.pow(2.0, n);
 
-            System.out.println(logN + "\t" + n + "\t" + nLogEN + "\t" + 
+            System.out.println(logN + "\t" + n + "\t" + nLogEN + "\t" +
                                 np2 + "\t" + np3 + "\t" + pn);
         }
     }

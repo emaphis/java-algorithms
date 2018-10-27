@@ -1,12 +1,15 @@
 /******************************************************************************
- * Name:  Ed Maphis
- * Section 1.2 - Built-in Types of Data
- * Program 1.2.23 - DayMonth.java
+ *  Compilation:  javac DayMonth.java
+ *  Execution:    java DayMonth month dar
  *
- * Description: Check to see if a given day and month is in a range.
- * Exercise: Write a program that takes two integer command-line arguments m
- *           and d and prints true if day d of month m is between 3/20 and
- *           6/20, false otherwise. 
+ *  Author:  Ed Maphis
+ *  Section  1.2 - Built-in Types of Data
+ *  Program  1.2.23 - DayMonth.java
+ *
+ *  Description: Check to see if a given day and month is in a range.
+ *  Exercise: Write a program that takes two integer command-line arguments m
+ *            and d and prints true if day d of month m is between 3/20 and
+ *            6/20, false otherwise.
  ******************************************************************************/
 
 package cs.ch1.sec2;

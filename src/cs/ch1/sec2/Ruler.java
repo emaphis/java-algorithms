@@ -1,16 +1,19 @@
 /******************************************************************************
- * Name:  Ed Maphis
+ *  Compilation:  javac Ruler.java
+ *  Execution:    java Ruler int
  *
- * Section 1.2 - Built-in Types of Data
- * Program 1.2.1 - Ruler.java
+ *  Author:  Ed Maphis
  *
- * Description: String concatenation
- * Formula: This program prints the relative lengths of the subdivisions on
- *          a ruler. The nth line of output is the relative lengths of the
- *          marks on a ruler subdivided in intervals of 1/2 n of an inch.
- *          For example, the fourth line of output gives the relative lengths
- *          of the marks that indicate intervals of one-sixteenth of an inch on
- *          a ruler.
+ *  Section: 1.2 - Built-in Types of Data
+ *  Program: 1.2.1 - Ruler.java
+ *
+ *  Description: String concatenation
+ *  Formula: This program prints the relative lengths of the subdivisions on
+ *           a ruler. The nth line of output is the relative lengths of the
+ *           marks on a ruler subdivided in intervals of 1/2 n of an inch.
+ *           For example, the fourth line of output gives the relative lengths
+ *           of the marks that indicate intervals of one-sixteenth of an inch
+ *           on a ruler.
  ******************************************************************************/
 
 package cs.ch1.sec2;

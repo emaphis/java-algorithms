@@ -1,4 +1,8 @@
 /******************************************************************************
+ *  Compilation:  javac Velocity.java
+ *  Execution:    java Velocity double double double
+ *
+ *  Author:  Ed Maphis
  * Name:  Ed Maphis
  * Section 1.2 - Built-in Types of Data
  * Program 1.2.22 - Velocity.java

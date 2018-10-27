@@ -1,8 +1,9 @@
 /******************************************************************************
- *  Name:    Ed Maphis
+ *  Compilation:  javac UserArgument.java
+ *  Execution:    java UseArgument
  *
+ *  Author:       Ed Maphis
  *  Description:  A program that demonstrates command line parameters.
- *  
  ******************************************************************************/
 
 package cs.ch1.sec1;

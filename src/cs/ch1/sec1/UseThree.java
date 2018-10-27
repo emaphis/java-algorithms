@@ -1,10 +1,11 @@
 /******************************************************************************
- *  Name:    Ed Maphis 
- *  
- *  Exercise: 1.1.6
+ *  Compilation:  javac UseThree.java
+ *  Execution:    java UseThree Alice Bob Carrol
+ *  Produces      "Hi Carrol, Bob, and Alice"
  *
+ *  Author:       Ed Maphis
+ *  Exercise:     1.1.6
  *  Description:  A program that prints out three parameters in reverse order.
- *  
  ******************************************************************************/
 
 package cs.ch1.sec1;

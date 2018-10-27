@@ -1,11 +1,14 @@
 /******************************************************************************
- * Name:  Ed Maphis
- * Section 1.2 - Built-in Types of Data
- * Exercise 1.2.14 - EvenlyDivides.java
+ *  Compilation:  javac EvenlyDivides.java
+ *  Execution:    java EvenlyDivides number1 number2
  *
- * Description: Checks if two passed numbers evenly divide.
- * Formula: Write a program that takes two positive integers as command-line
- *          arguments and prints true if either evenly divides the other.
+ *  Author:   Ed Maphis
+ *  Section:  1.2 - Built-in Types of Data
+ *  Exercise: 1.2.14 - EvenlyDivides.java
+ *
+ *  Description: Checks if two passed numbers evenly divide.
+ *  Formula: Write a program that takes two positive integers as command-line
+ *           arguments and prints true if either evenly divides the other.
  ******************************************************************************/
 
 

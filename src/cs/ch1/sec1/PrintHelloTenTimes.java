@@ -1,8 +1,9 @@
 /******************************************************************************
+ *  Compilation:  javac PrintHelloTenTimes.java
+ *  Execution:    java PrintHelloTenTimes
+ *
  *  Name:    Ed Maphis
- *
- *  Exercise 1.1.1
- *
+ *  Exercise: 1.1.1
  *  Description:  A program that prints out "Hello, World 10 times.
  *
  ******************************************************************************/

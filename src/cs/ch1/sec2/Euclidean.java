@@ -1,12 +1,15 @@
 /******************************************************************************
- * Name:  Ed Maphis
- * Section 1.2 - Built-in Types of Data
- * Program 1.2.18 - Euclidean.java
+ *  Compilation:  javac Euclidean.java
+ *  Execution:    java Euclidean month day year
  *
- * Description: Calculate the Euclidean distance.
- * Exercise: Write a program that takes two integer command-linearguments x and y
- *        and prints the Euclidean distance from the point (x, y)
- *        to the origin (0, 0).
+ *  Author:  Ed Maphis
+ *  Section: 1.2 - Built-in Types of Data
+ *  Program: 1.2.18 - Euclidean.java
+ *
+ *  Description: Calculate the Euclidean distance.
+ *  Exercise: Write a program that takes two integer command-linearguments x
+ *         and y and prints the Euclidean distance from the point (x, y)
+ *         to the origin (0, 0).
  ******************************************************************************/
 
 package cs.ch1.sec2;

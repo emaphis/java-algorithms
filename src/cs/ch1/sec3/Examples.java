@@ -1,17 +1,20 @@
 /******************************************************************************
- * Name:  Ed Maphis
- * Section 1.2 - Built-in Types of Data
+ *  Compilation:  javac Examples.java
+ *  Execution:    java Examples
  *
- * Description: Example code
- * Formula: Examples and experiments
+ *  Author:  Ed Maphis
+ *  Section: 1.2 - Built-in Types of Data
+ *
+ *  Description: Example code
+ *  Formula: Examples and experiments
  ******************************************************************************/
 
 package cs.ch1.sec3;
 
-public class Examples
-{
-    public static void main(String[] args)
-    {
+public class Examples {
+
+    public static void main(String[] args) {
+
         // Ex. 1.3.3
 //        int a = 0;
 //        int b = 0;
@@ -30,13 +33,13 @@ public class Examples
 //            System.out.println("false");
 
         // Ex. 1.3.7
-        //int i = 0;
-        //int j = 0;
-        //for (i = 0, j = 0; i < 10; i++)  j += i;  // i=10 j=45
-        //for (i = 0, j = 1; i < 10; i++)  j += j;  // i=10 j=1024
-        //for (j = 0; j < 10; j++) j += j;          // i=0 j=15
-        //for (i = 0, j = 0; i < 10; i++) j += j++; // i=10 j=0
-        //System.out.println("i="+i + " " + "j="+j);
+        // int i = 0;
+        // int j = 0;
+        // for (i = 0, j = 0; i < 10; i++)  j += i;  // i=10 j=45
+        // for (i = 0, j = 1; i < 10; i++)  j += j;  // i=10 j=1024
+        // for (j = 0; j < 10; j++) j += j;          // i=0 j=15
+        // for (i = 0, j = 0; i < 10; i++) j += j++; // i=10 j=0
+        // System.out.println("i="+i + " " + "j="+j);
 
         // Ex. 1.3.13
 //        int n = 123456789;
