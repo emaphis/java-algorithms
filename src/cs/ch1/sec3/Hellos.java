@@ -1,13 +1,17 @@
 /******************************************************************************
- * Name:  Ed Maphis
- * Section 1.3 - Conditionals and loops
- * Program 1.3.8 - Hellos.java
+ *  Compilation:  javac Hellos.java
+ *  Execution:    java Hellos int
  *
- * Description: Print n Hello messages.
- * Exercise: Rewrite TenHellos to make a program Hellos that takes the number
- *           of lines to print as a command-line argument. You may assume that
- *           the argument is less than 1000. Hint: Use i % 10 and i % 100 to
- *           determine when to use st, nd, rd, or th for printing the ithS Hello.
+ *  Author:  Ed Maphis
+ *  Section: 1.3 - Conditionals and loops
+ *  Program: 1.3.8 - Hellos.java
+ *
+ *  Description: Print n Hello messages.
+ *  Exercise: Rewrite TenHellos to make a program Hellos that takes the number
+ *            of lines to print aSs a command-line argument. You may assume
+ *            that the argument is less than 1000. Hint: Use i % 10 and i % 100
+ *            to determine when to use st, nd, rd, or th for printing the iths
+ *            Hello.
  ******************************************************************************/
 
 package cs.ch1.sec3;
@@ -22,8 +26,7 @@ public class Hellos {
     public static void main(String[] args) {
         int num = Integer.parseInt(args[0]);
 
-        for (int i = 1; i <= num; i++)
-        {
+        for (int i = 1; i <= num; i++) {
             // Exception 11, 12, 13; assume i < 1000
             if (i % 100 >= 11 && i % 100 <= 13)
                                   System.out.println(i + "th Hello");

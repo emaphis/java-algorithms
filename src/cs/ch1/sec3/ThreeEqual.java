@@ -1,11 +1,15 @@
 /******************************************************************************
- * Name:  Ed Maphis
- * Section 1.3 - Conditionals and loops
- * Exercis 1.3.1 - ThreeEqual.java
+ *  Compilation:  javac ThreeEqual.java
+ *  Execution:    java ThreeEqual int int int
  *
- * Description: Test if three inputs are equal.
- * Exercise:  Write a program that takes three integer command-line arguments
- *            and prints equal if all three are equal, and not equal otherwise.
+ *  Author:  Ed Maphis
+ *  Section: 1.3 - Conditionals and loops
+ *  Exercise: 1.3.1 - ThreeEqual.java
+ *
+ *  Description: Test if three inputs are equal.
+ *  Exercise:  Write a program that takes three integer command-line arguments
+ *             and prints equal if all three are equal, and not equal
+ *             otherwise.
  ******************************************************************************/
 package cs.ch1.sec3;
 
@@ -14,10 +18,10 @@ package cs.ch1.sec3;
  * @author emaphis
  *
  */
-public class ThreeEqual
-{
-    public static void main(String[] args)
-    {   // Input three numbers to test
+public class ThreeEqual {
+
+    public static void main(String[] args) {
+        // Input three numbers to test
         int a = Integer.parseInt(args[0]);
         int b = Integer.parseInt(args[1]);
         int c = Integer.parseInt(args[2]);
