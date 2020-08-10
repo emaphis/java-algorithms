@@ -9,7 +9,7 @@
  *  Formula: Examples and experiments
  ******************************************************************************/
 
-package cs.ch1.sec3;
+package main.java.cs.ch1.sec3;
 
 public class Examples {
 

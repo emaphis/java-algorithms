@@ -15,7 +15,7 @@
  *            second.)
  ******************************************************************************/
 
-package cs.ch1.sec2;
+package main.java.cs.ch1.sec2;
 
 public class Velocity {
 

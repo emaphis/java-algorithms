@@ -6,7 +6,7 @@
  *  Description:  Basic Hello World program.
  ******************************************************************************/
 
-package algo.ch1.sec1;
+package main.java.algo.ch1.sec1;
 
 public class HelloWorld {
 
