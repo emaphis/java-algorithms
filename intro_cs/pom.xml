@@ -31,6 +31,15 @@
                     <target>11</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <configuration>
+                    <mainClass>cs.ch1.sec1.UseArgument</mainClass>
+                    <arguments>Jerry</arguments>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
